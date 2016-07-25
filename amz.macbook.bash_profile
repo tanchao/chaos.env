@@ -8,8 +8,6 @@ alias ll='ls -l'
 alias la='ls -lA'
 
 # alias
-alias ec2='ssh tcchao@tcchao.aka.corp.amazon.com'
-alias odin='ssh -fNL 2009:localhost:2009 tcchao.aka.corp.amazon.com'
 alias ckodin='curl localhost:2009'
 alias proxy='cd ~/amz/;nohup ./sshtunnel &;cd -'
 alias ipconfig='ifconfig | grep inet'
